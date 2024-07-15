@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Calendário de Rave</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h2 class="text-center text-danger">Registro</h2>
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="new-username">Usuário:</label>
+                        <input type="text" id="new-username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="new-password">Senha:</label>
+                        <input type="password" id="new-password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Registrar</button>
+                </form>
+                <div id="register-error-message" class="alert alert-danger mt-3" style="display: none;"></div>
+                <p class="text-center mt-3"><a href="login.html" class="text-danger">Voltar ao Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

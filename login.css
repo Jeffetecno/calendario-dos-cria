@@ -1,0 +1,56 @@
+body {
+    background-image: url('login.imag/login\ imag.png'); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #444;
+    border-color: #ff0000;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e60000;
+}
+
+.alert-danger {
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+}
